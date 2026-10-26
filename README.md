@@ -17,8 +17,17 @@ This repository serves as an explicit end-to-end test artifact for Repo Steward.
 
 ## Scope
 
-This repository contains documentation for the test. It does not provide a CLI, installers, binaries or working automation features. Generated source scaffolds are not represented as a finished application. No external code is executed by this test.
+This repository contains documentation and a generated source scaffold for the test. It does not provide a CLI, installers, binaries or working automation features. Generated source scaffolds are not represented as a finished application. No external code is executed by this test.
 
 ## License
 
-No license has been specified.
+The repository includes the existing [MIT License](LICENSE).
+
+## Verified file composition
+
+- [Generated source scaffold](notes.py): static syntax checked; runtime not tested; its check function is unfinished.
+- [Package and download notes](DOWNLOADS.md).
+- [Pages source](index.html): included as a file; a live Pages deployment is not claimed.
+- `.nojekyll` disables Jekyll processing if Pages is enabled.
+
+No generated code was executed during this test.
